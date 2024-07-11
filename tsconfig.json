@@ -1,4 +1,12 @@
 {
+  // for Shadcn UI
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+
   "files": [],
   "references": [
     {
