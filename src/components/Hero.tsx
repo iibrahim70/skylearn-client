@@ -6,7 +6,7 @@ import bannerTwo from "@/assets/images/banner-2.jpg";
 
 const Hero = () => {
   return (
-    <section className="container flex max-md:flex-col items-center justify-between gap-20 py-20">
+    <section className="container flex max-md:flex-col items-center justify-between gap-20">
       {/* left side */}
       <div className="w-full md:w-1/2 flex flex-col gap-5">
         <p className="font-medium">LEARN . PLAY . EXPLORE</p>
