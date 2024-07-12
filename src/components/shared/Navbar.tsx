@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
 
         {/* middle */}
-        <div className="max-lg:hidden flex justify-between gap-5">
+        <div className="max-lg:hidden flex justify-between gap-5 text-[15px]">
           {navItems?.map((item, index) => (
             <Link key={index} to={item?.path as string}>
               {item?.label}
