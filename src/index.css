@@ -31,3 +31,30 @@
     @apply text-lg lg:text-xl font-bold;
   }
 }
+
+/* parallex effect */
+.history-banner {
+  position: relative;
+  background-image: url("@/assets/images/banner-4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.history-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.history-banner > * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
+}

@@ -16,11 +16,11 @@ const Hero = () => {
         </h3>
 
         <p>
-          Assalamu Alaikum! Welcome to Reverie School, where academic excellence
-          meets moral values. Located at Bashundhara Residential Area in Dhaka,
-          our English medium institution offers a holistic education, nurturing
-          students to thrive academically and spiritually. Join us for a journey
-          of learning and enlightenment.
+          Assalamu Alaikum! Welcome to Skylearn School, where academic
+          excellence meets moral values. Located at Bashundhara Residential Area
+          in Dhaka, our English medium institution offers a holistic education,
+          nurturing students to thrive academically and spiritually. Join us for
+          a journey of learning and enlightenment.
         </p>
 
         <div className="space-y-4">

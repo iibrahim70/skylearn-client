@@ -5,19 +5,19 @@ const ExamReminder = () => {
 
       <div className="border rounded-md flex items-center justify-between gap-2.5 text-sm py-2 px-3.5">
         <div className="flex flex-col items-center">
-          <p className="text-red-500 font-bold text-2xl">18</p>
+          <h5 className="text-orange-500">18</h5>
           <p>Days</p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-red-500 font-bold text-2xl">17</p>
+          <h5 className="text-orange-500">17</h5>
           <p>Hours</p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-red-500 font-bold text-2xl">03</p>
+          <h5 className="text-orange-500">03</h5>
           <p>Minutes</p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-red-500 font-bold text-2xl">39</p>
+          <h5 className="text-orange-500">39</h5>
           <p>Seconds</p>
         </div>
       </div>
